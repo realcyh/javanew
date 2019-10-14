@@ -10,7 +10,7 @@ public class Array {
         cnt = in.nextInt();
         if (cnt>0) {
             int[] nums = new int[cnt];
-            for (int i=0; i<cnt; i++) {
+            for (int i=0; i<nums.length; i++) {
                 nums[i] = in.nextInt();
                 sum += nums[i];
             }
@@ -20,6 +20,7 @@ public class Array {
                     System.out.print(nums[i]+" ");
                 }
             }
+            System.out.println(nums.length);
         }
     }
 }
